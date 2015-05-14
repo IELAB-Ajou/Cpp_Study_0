@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5964E7721B04318E00264751 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5964E7711B04318E00264751 /* main.cpp */; };
+		5964E77A1B0432EF00264751 /* Warrior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5964E7781B0432EF00264751 /* Warrior.cpp */; };
+		5964E77D1B0432FF00264751 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5964E77B1B0432FF00264751 /* Point.cpp */; };
+		5964E7801B0435CB00264751 /* Archer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5964E77E1B0435CB00264751 /* Archer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		5964E76E1B04318E00264751 /* Cpp_Study_03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_Study_03; sourceTree = BUILT_PRODUCTS_DIR; };
 		5964E7711B04318E00264751 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5964E7781B0432EF00264751 /* Warrior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Warrior.cpp; sourceTree = "<group>"; };
+		5964E7791B0432EF00264751 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		5964E77B1B0432FF00264751 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		5964E77C1B0432FF00264751 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		5964E77E1B0435CB00264751 /* Archer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Archer.cpp; sourceTree = "<group>"; };
+		5964E77F1B0435CB00264751 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				5964E7711B04318E00264751 /* main.cpp */,
+				5964E7781B0432EF00264751 /* Warrior.cpp */,
+				5964E7791B0432EF00264751 /* Warrior.h */,
+				5964E77B1B0432FF00264751 /* Point.cpp */,
+				5964E77C1B0432FF00264751 /* Point.h */,
+				5964E77E1B0435CB00264751 /* Archer.cpp */,
+				5964E77F1B0435CB00264751 /* Archer.h */,
 			);
 			path = Cpp_Study_03;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5964E7801B0435CB00264751 /* Archer.cpp in Sources */,
+				5964E77D1B0432FF00264751 /* Point.cpp in Sources */,
+				5964E77A1B0432EF00264751 /* Warrior.cpp in Sources */,
 				5964E7721B04318E00264751 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
